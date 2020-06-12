@@ -2,9 +2,9 @@
 
 This was a project for Computer Architecture at Cal Poly. 
 
-The purpose was not only to simulate the function of ARM Thumb instructions, but to gather both cache and branch statistics.
+The purpose was not only to simulate the function of ARM Thumb instructions, but to also gather both cache and branch statistics.
 
-It is currently set up to measure how many forwards and backwards branches are taken, and how many hits caches of different sizes get.
+It is currently set up to measure how many forwards and backwards branches are taken, and the hit rate of different block sizes for the simulated cache.
 
 # The following instructions are supported:
   * push
